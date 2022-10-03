@@ -48,7 +48,7 @@ function concat(array1, array2) {
 
 // array.join()
 function join(sep, array) {
-    let joinedArray = `${array[0]}`;
+    let joinedArray = array[0];
     for (let i = 1; i < array.length; i++) {
         joinedArray += sep;
         joinedArray += array[i];
